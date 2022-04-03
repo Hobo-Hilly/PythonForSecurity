@@ -18,7 +18,7 @@ class Grabber:
 
 
 def main():
-    grabber = Grabber('10.0.0.1', 22)
+    grabber = Grabber('50.116.20.151', 22)
     print(grabber.read())
     grabber.close()
 
